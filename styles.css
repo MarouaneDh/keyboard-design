@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(20, 20, 20);
+}
+
+.first{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    box-shadow: -5px -5px 5px rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: solid 10px rgb(19, 19, 19);
+    border-top: solid 10px rgb(19, 19, 19);
+    border-right: solid 10px rgb(48, 48, 48);
+    border-bottom: solid 10px rgb(85, 85, 85);
+    margin: 5px;
+}
+
+.second{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(27, 27, 27);
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.first-row{
+    display: flex;
+}
+.second-row{
+    display: flex;
+    margin-left: 80px;
+}
+.third-row{
+    display: flex;
+    
+}
+.fourth-row{
+    display: flex;
+    margin-left: 350px;
+}
+
+.alt-first{
+    height: 100px;
+    width: 130px;
+    border-radius: 10px;
+    box-shadow: -5px -5px 5px rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: solid 10px rgb(19, 19, 19);
+    border-top: solid 10px rgb(19, 19, 19);
+    border-right: solid 10px rgb(48, 48, 48);
+    border-bottom: solid 10px rgb(85, 85, 85);
+    margin: 5px;
+}
+
+.alt-second{
+    width: 110px;
+    height: 80px;
+    background-color: rgb(27, 27, 27);
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+.space-bar-first{
+    height: 100px;
+    width: 620px;
+    border-radius: 10px;
+    box-shadow: -5px -5px 5px rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: solid 10px rgb(19, 19, 19);
+    border-top: solid 10px rgb(19, 19, 19);
+    border-right: solid 10px rgb(48, 48, 48);
+    border-bottom: solid 10px rgb(85, 85, 85);
+    margin: 5px;
+}
+
+.space-bar-second{
+    width: 600px;
+    height: 80px;
+    background-color: rgb(27, 27, 27);
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
